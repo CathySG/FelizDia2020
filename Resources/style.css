@@ -1,0 +1,119 @@
+html {
+  font-size: 18px;
+  font-family: ;
+}
+
+.header {
+  background-color: #80a853;
+  height: 4rem;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+nav {
+  display: inline-block;
+  color: white;
+}
+
+nav span {
+  padding-right: 2rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #dc6b6b;
+}
+
+.logo img {
+  padding-left: 1rem;
+}
+
+
+.banner {
+  background-image: url("./PapiNanisYo.jpg");
+  background-position: center;
+    background-size:cover;
+    height: 350px;
+    width: 100%;
+    margin-top: 4rem;
+}
+.contenido {
+  overflow: scroll;
+}
+
+
+.let {
+  display: flex;
+  justify-content: space-around;
+}
+
+.letrero {
+  background-color: white;
+  justify-content: space-between;
+  margin-top: 16rem;
+  font-size: 2.5rem;
+  padding: 2rem;
+  width: 30rem;
+  text-align: center;
+}
+
+.espacio {
+  height: 13.5rem;
+
+}
+
+.letrero p {
+  font-size: 1.5rem;
+
+}
+.fotos {
+display: flex;
+justify-content: space-around;
+}
+
+.foto img {
+height: 15rem;
+}
+
+.foto p {
+  text-align: center;
+  background-color: #007ea8;
+  color: white;
+  height: 2rem;
+  padding: 0.3rem;
+}
+
+.uno {
+  width: 11.3rem;
+}
+
+.main {
+display: inline-block;
+}
+
+.main p {
+  height: 1rem;
+  background-color: blue;
+}
+
+.footer {
+  margin-top: 3rem;
+  height: 4rem;
+  background-color: #80a853;
+}
+
+.footer p {
+  font-size: 1rem;
+padding: 1.5rem;
+color: white;
+text-align: right;
+font-style: oblique;
+}

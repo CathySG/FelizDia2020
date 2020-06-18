@@ -1,0 +1,87 @@
+html {
+  font-size: 18px;
+  font-family: ;
+}
+
+.header {
+  background-color: #80a853;
+  height: 4rem;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+nav {
+  display: inline-block;
+  color: white;
+}
+
+nav span {
+  padding-right: 2rem;
+  font-size: 1rem;
+}
+a {
+  color: white;
+}
+
+a:hover {
+  color: #dc6b6b;
+}
+
+.logo img {
+  padding-left: 1rem;
+}
+
+.main {
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.los3 {
+margin-top: 6rem;
+
+}
+
+.los3 img,
+.los img {
+  width: 600px;
+}
+
+.main2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+}
+.footo {
+  margin-top: 4rem;
+}
+
+.footo,
+.footo2 {
+  display: flex;
+  justify-content: center;
+}
+
+.foo img,
+.foo2 img {
+  width: 300px;
+  padding: 1rem;
+}
+
+.footer {
+  margin-top: 3rem;
+  height: 4rem;
+  background-color: #80a853;
+}
+
+.footer p {
+  font-size: 1rem;
+padding: 1.5rem;
+color: white;
+text-align: right;
+font-style: oblique;
+}
